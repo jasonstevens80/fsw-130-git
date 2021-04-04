@@ -6,7 +6,7 @@ function NutsContainer(props){
     return (
         <div>
             <h2>Number of Nuts - {props.numOfNuts}</h2>
-            <button onClick ={props.buyBeer}>Buy Nuts</button>
+            <button onClick ={props.buyNuts}>Buy Nuts</button>
         </div>
     )
 }

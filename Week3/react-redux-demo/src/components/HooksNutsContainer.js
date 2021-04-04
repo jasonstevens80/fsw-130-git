@@ -8,7 +8,7 @@ function HooksNutsContainer(){
     const dispatch = useDispatch()
     return (
         <div>
-            <h2>Buy Nuts- {numOfNuts}</h2>
+            <h2>Num of Nuts- {numOfNuts}</h2>
             <button onCLick = {() => dispatch(buyNuts())}>Buy Nuts</button>
         </div>
     )

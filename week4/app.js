@@ -2,16 +2,16 @@ const redux = require('redux');
 
 let tommy = {
     id: 1,
-    name: "Tommy Oliver",
-    phone: "925-867-5309",
-    email: "thegreenranger@powerrangers.com"
+    name: "BatMan",
+    phone: "555-555-5555",
+    email: "imbatman@aol.com"
 }
 
 let amy = {
     id: 2,
-    name: 'Amy Scoville',
-    phone: '801-362-4943',
-    email: 'amy.scoville2@gmail.com'
+    name: 'SuperMan',
+    phone: '555-555-1234',
+    email: 'clarkkent@aol.com'
 }
 
 //reducers
@@ -76,7 +76,7 @@ store.dispatch(removeContact(2));
 store.dispatch(editContact(1, 
     {
     id: 1, 
-    name: 'Oliver Scoville', 
+    name: 'Spiderman', 
     phone: 'NA', 
     email: 'NA'
 }));
